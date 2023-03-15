@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3030, // Change the port number here
     proxy: {
-      '/api': 'http://localhost/my-vue-php-project/api'
+      '/api': 'http://localhost/vuePhp/api'
     }
   },
   build: {
